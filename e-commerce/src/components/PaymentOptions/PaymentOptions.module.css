@@ -1,0 +1,87 @@
+.paymentoptions {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  padding: 40px;
+  margin-bottom: 40px;
+}
+
+.container {
+  background: lightgray;
+  padding: 20px;
+  margin: 20px;
+  width: 500px;
+}
+
+.creditcard,
+.paypal {
+  width: 40px;
+}
+
+.cardNumber {
+  width: 250px;
+  margin-top: 10px;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.cardDetail {
+  width: 50px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.cardHolder {
+  width: 422px;
+  padding: 5px;
+}
+
+.btn {
+  padding: 8px 40px;
+  margin: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+@media (max-width: 991px) {
+  .paymentoptions {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  body {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .paymentoptions {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .container {
+    width: 260px;
+    padding: 10px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+
+  .cardDetail {
+    margin-left: 0px;
+  }
+
+  .cardHolder {
+    width: 250px;
+  }
+}

@@ -1,0 +1,103 @@
+.shippingdetails {
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 40px;
+}
+
+.details {
+  padding: 10px;
+  padding-left: 0px;
+}
+
+.details input {
+  width: 220px;
+  padding: 6px;
+}
+
+.details .address {
+  width: 465px;
+}
+
+.delivery {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.leftMargin {
+  margin-left: 10px;
+}
+
+.deliveryType {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  padding: 26px;
+  background: lightgray;
+}
+
+.deliveryType input {
+  padding: 40px;
+  width: 50px;
+}
+
+.btn {
+  padding: 8px 40px;
+  margin: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+@media (max-width: 991px) {
+  .shippingdetails {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 767px) {
+  * {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+  .shippingdetails {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .details {
+    padding: 0px;
+  }
+
+  .details input {
+    width: 250px;
+    margin: 5px;
+  }
+  .details .address {
+    width: 250px;
+  }
+
+  .deliveryType {
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    background: lightgray;
+  }
+
+  .deliveryType input {
+    width: 30px;
+    margin: 10px;
+  }
+}

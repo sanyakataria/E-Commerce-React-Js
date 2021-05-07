@@ -1,0 +1,604 @@
+{
+    "products": [
+        {
+            "id": "sd1",
+            "image": "/assets/dress.jpeg",
+            "title": "Long Dress",
+            "description": "Yellow. 100% cotton",
+            "price": 1459,
+            "reviewDesc": [
+                {
+                    "name": "aliza",
+                    "rev": "Good product",
+                    "date": "28 apr 2019"
+                },
+                {
+                    "name": "sana",
+                    "rev": "loved it",
+                    "date": "20 sep 2019"
+                },
+                {
+                    "name": "dia",
+                    "rev": "pretty",
+                    "date": "2 aug 2020"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": "sd2",
+            "image": "/assets/shirt.jpeg",
+            "title": "Formal Shirt",
+            "description": "Formal office wear shirt",
+            "price": 1049,
+            "reviewDesc": [
+                {
+                    "name": "john",
+                    "rev": "real product",
+                    "date": "2 apr 2020"
+                },
+                {
+                    "name": "doe",
+                    "rev": "good material",
+                    "date": "7 dec 2019"
+                },
+                {
+                    "name": "sikhar",
+                    "rev": "value for money",
+                    "date": "17 may 2019"
+                },
+                {
+                    "name": "jay",
+                    "rev": "good color",
+                    "date": "1 jan 2020"
+                }
+            ],
+            "sizes": [
+                "s",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd3",
+            "image": "/assets/dress1.jpeg",
+            "title": "Red Floral Dress",
+            "description": "Casual wear dress",
+            "price": 799,
+            "reviewDesc": [
+                {
+                    "name": "ria",
+                    "rev": "same as picture",
+                    "date": "10 apr 2020"
+                },
+                {
+                    "name": "rama",
+                    "rev": "affordable",
+                    "date": "31 dec 2020"
+                }
+            ],
+            "sizes": [
+                "xs",
+                "s",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd4",
+            "image": "/assets/tshirt.jpeg",
+            "title": "White Casual T-Shirt",
+            "description": "Daily wear Cotton TShirt",
+            "price": 599,
+            "reviewDesc": [
+                {
+                    "name": "sahil",
+                    "rev": "nice tshirt",
+                    "date": "19 june 2020"
+                },
+                {
+                    "name": "john",
+                    "rev": "affordable",
+                    "date": "25 feb 2018"
+                },
+                {
+                    "name": "garry",
+                    "rev": "good fit",
+                    "date": "2 jan 2018"
+                },
+                {
+                    "name": "shaun",
+                    "rev": "same as picture",
+                    "date": "15 march 2019"
+                }
+            ],
+            "sizes": [
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd5",
+            "image": "/assets/dress2.jpeg",
+            "title": "Mauve Short Dress",
+            "description": "Inhouse dress product",
+            "price": 1099,
+            "reviewDesc": [
+                {
+                    "name": "sheena",
+                    "rev": "same as picture",
+                    "date": "3 june 2019"
+                },
+                {
+                    "name": "jiya",
+                    "rev": "affordable",
+                    "date": "11 may 2020"
+                }
+            ],
+            "sizes": [
+                "m",
+                "l",
+                "xl",
+                "xxl"
+            ]
+        },
+        {
+            "id": "sd6",
+            "image": "/assets/tshirt1.jpeg",
+            "title": "Black Women's Tshirt",
+            "description": "Black slim fit womens tshirt",
+            "price": 679,
+            "reviewDesc": [
+                {
+                    "name": "binny",
+                    "rev": "good color",
+                    "date": "13 june 2020"
+                },
+                {
+                    "name": "hina",
+                    "rev": "real product",
+                    "date": "31 july 2020"
+                },
+                {
+                    "name": "lary",
+                    "rev": "good fit",
+                    "date": "14 sep 2019"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": "sd7",
+            "image": "/assets/shirt1.jpeg",
+            "title": "Checked Shirt",
+            "description": "Party wear black check shirt",
+            "price": 1299,
+            "reviewDesc": [
+                {
+                    "name": "roy",
+                    "rev": "good option",
+                    "date": "15 nov 2019"
+                },
+                {
+                    "name": "john",
+                    "rev": "nice product",
+                    "date": "11 oct 2020"
+                },
+                {
+                    "name": "ravi",
+                    "rev": "value for money",
+                    "date": "3 feb 2019"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd8",
+            "image": "/assets/shirt2.jpeg",
+            "title": "Shirt",
+            "description": "black formal shirt",
+            "price": 999,
+            "reviewDesc": [
+                {
+                    "name": "joye",
+                    "rev": "affordable",
+                    "date": "10 oct 2020"
+                },
+                {
+                    "name": "neil",
+                    "rev": "same as picture",
+                    "date": "31 oct 2020"
+                }
+            ],
+            "sizes": [
+                "s",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd9",
+            "image": "/assets/dress.jpeg",
+            "title": "Long Dress",
+            "description": "Yellow. 100% cotton",
+            "price": 1459,
+            "reviewDesc": [
+                {
+                    "name": "aliza",
+                    "rev": "Good product",
+                    "date": "28 apr 2019"
+                },
+                {
+                    "name": "sana",
+                    "rev": "loved it",
+                    "date": "20 sep 2019"
+                },
+                {
+                    "name": "dia",
+                    "rev": "pretty",
+                    "date": "2 aug 2020"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": "sd10",
+            "image": "/assets/shirt.jpeg",
+            "title": "Formal Shirt",
+            "description": "Formal office wear shirt",
+            "price": 1049,
+            "reviewDesc": [
+                {
+                    "name": "john",
+                    "rev": "real product",
+                    "date": "2 apr 2020"
+                },
+                {
+                    "name": "doe",
+                    "rev": "good material",
+                    "date": "7 dec 2019"
+                },
+                {
+                    "name": "sikhar",
+                    "rev": "value for money",
+                    "date": "17 may 2019"
+                },
+                {
+                    "name": "jay",
+                    "rev": "good color",
+                    "date": "1 jan 2020"
+                }
+            ],
+            "sizes": [
+                "s",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd11",
+            "image": "/assets/dress1.jpeg",
+            "title": "Red Floral Dress",
+            "description": "Casual wear dress",
+            "price": 799,
+            "reviewDesc": [
+                {
+                    "name": "ria",
+                    "rev": "same as picture",
+                    "date": "10 apr 2020"
+                },
+                {
+                    "name": "rama",
+                    "rev": "affordable",
+                    "date": "31 dec 2020"
+                }
+            ],
+            "sizes": [
+                "xs",
+                "s",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd12",
+            "image": "/assets/tshirt.jpeg",
+            "title": "White Casual T-Shirt",
+            "description": "Daily wear Cotton TShirt",
+            "price": 599,
+            "reviewDesc": [
+                {
+                    "name": "sahil",
+                    "rev": "nice tshirt",
+                    "date": "19 june 2020"
+                },
+                {
+                    "name": "john",
+                    "rev": "affordable",
+                    "date": "25 feb 2018"
+                },
+                {
+                    "name": "garry",
+                    "rev": "good fit",
+                    "date": "2 jan 2018"
+                },
+                {
+                    "name": "shaun",
+                    "rev": "same as picture",
+                    "date": "15 march 2019"
+                }
+            ],
+            "sizes": [
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd13",
+            "image": "/assets/dress2.jpeg",
+            "title": "Mauve Short Dress",
+            "description": "Inhouse dress product",
+            "price": 1099,
+            "reviewDesc": [
+                {
+                    "name": "sheena",
+                    "rev": "same as picture",
+                    "date": "3 june 2019"
+                },
+                {
+                    "name": "jiya",
+                    "rev": "affordable",
+                    "date": "11 may 2020"
+                }
+            ],
+            "sizes": [
+                "m",
+                "l",
+                "xl",
+                "xxl"
+            ]
+        },
+        {
+            "id": "sd14",
+            "image": "/assets/tshirt1.jpeg",
+            "title": "Black Women's Tshirt",
+            "description": "Black slim fit womens tshirt",
+            "price": 679,
+            "reviewDesc": [
+                {
+                    "name": "binny",
+                    "rev": "good color",
+                    "date": "13 june 2020"
+                },
+                {
+                    "name": "hina",
+                    "rev": "real product",
+                    "date": "31 july 2020"
+                },
+                {
+                    "name": "lary",
+                    "rev": "good fit",
+                    "date": "14 sep 2019"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": "sd15",
+            "image": "/assets/shirt1.jpeg",
+            "title": "Checked Shirt",
+            "description": "Party wear black check shirt",
+            "price": 1299,
+            "reviewDesc": [
+                {
+                    "name": "roy",
+                    "rev": "good option",
+                    "date": "15 nov 2019"
+                },
+                {
+                    "name": "john",
+                    "rev": "nice product",
+                    "date": "11 oct 2020"
+                },
+                {
+                    "name": "ravi",
+                    "rev": "value for money",
+                    "date": "3 feb 2019"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd16",
+            "image": "/assets/shirt2.jpeg",
+            "title": "Shirt",
+            "description": "black formal shirt",
+            "price": 999,
+            "reviewDesc": [
+                {
+                    "name": "joye",
+                    "rev": "affordable",
+                    "date": "10 oct 2020"
+                },
+                {
+                    "name": "neil",
+                    "rev": "same as picture",
+                    "date": "31 oct 2020"
+                }
+            ],
+            "sizes": [
+                "s",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd17",
+            "image": "/assets/dress1.jpeg",
+            "title": "Red Floral Dress",
+            "description": "Casual wear dress",
+            "price": 799,
+            "reviewDesc": [
+                {
+                    "name": "ria",
+                    "rev": "same as picture",
+                    "date": "10 apr 2020"
+                },
+                {
+                    "name": "rama",
+                    "rev": "affordable",
+                    "date": "31 dec 2020"
+                }
+            ],
+            "sizes": [
+                "xs",
+                "s",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd18",
+            "image": "/assets/tshirt.jpeg",
+            "title": "White Casual T-Shirt",
+            "description": "Daily wear Cotton TShirt",
+            "price": 599,
+            "reviewDesc": [
+                {
+                    "name": "sahil",
+                    "rev": "nice tshirt",
+                    "date": "19 june 2020"
+                },
+                {
+                    "name": "john",
+                    "rev": "affordable",
+                    "date": "25 feb 2018"
+                },
+                {
+                    "name": "garry",
+                    "rev": "good fit",
+                    "date": "2 jan 2018"
+                },
+                {
+                    "name": "shaun",
+                    "rev": "same as picture",
+                    "date": "15 march 2019"
+                }
+            ],
+            "sizes": [
+                "m",
+                "l",
+                "xl"
+            ]
+        },
+        {
+            "id": "sd19",
+            "image": "/assets/dress2.jpeg",
+            "title": "Mauve Short Dress",
+            "description": "Inhouse dress product",
+            "price": 1099,
+            "reviewDesc": [
+                {
+                    "name": "sheena",
+                    "rev": "same as picture",
+                    "date": "3 june 2019"
+                },
+                {
+                    "name": "jiya",
+                    "rev": "affordable",
+                    "date": "11 may 2020"
+                }
+            ],
+            "sizes": [
+                "m",
+                "l",
+                "xl",
+                "xxl"
+            ]
+        },
+        {
+            "id": "sd20",
+            "image": "/assets/tshirt1.jpeg",
+            "title": "Black Women's Tshirt",
+            "description": "Black slim fit womens tshirt",
+            "price": 679,
+            "reviewDesc": [
+                {
+                    "name": "binny",
+                    "rev": "good color",
+                    "date": "13 june 2020"
+                },
+                {
+                    "name": "hina",
+                    "rev": "real product",
+                    "date": "31 july 2020"
+                },
+                {
+                    "name": "lary",
+                    "rev": "good fit",
+                    "date": "14 sep 2019"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "l"
+            ]
+        },
+        {
+            "id": "sd21",
+            "image": "/assets/shirt1.jpeg",
+            "title": "Checked Shirt",
+            "description": "Party wear black check shirt",
+            "price": 1299,
+            "reviewDesc": [
+                {
+                    "name": "roy",
+                    "rev": "good option",
+                    "date": "15 nov 2019"
+                },
+                {
+                    "name": "john",
+                    "rev": "nice product",
+                    "date": "11 oct 2020"
+                },
+                {
+                    "name": "ravi",
+                    "rev": "value for money",
+                    "date": "3 feb 2019"
+                }
+            ],
+            "sizes": [
+                "s",
+                "m",
+                "xl"
+            ]
+        }
+    ]
+}

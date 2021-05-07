@@ -1,0 +1,98 @@
+.order {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.order i {
+  font-size: 50px;
+  margin: 10px;
+}
+
+.btn {
+  padding: 8px 30px;
+  margin: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  align-items: center;
+  border: 1px solid gray;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.quantityValue {
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.qtyDiv {
+  margin-top: 10px;
+}
+
+.details {
+  padding: 10px;
+}
+
+.btn {
+  padding: 8px 40px;
+  margin: 10px;
+  background: blue;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.payment {
+  background: #c4c1c1;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  * {
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .img {
+    height: 100px;
+    width: 80px;
+  }
+  .product {
+    width: 270px;
+    flex-wrap: wrap;
+  }
+
+  .details {
+    padding: 5px;
+  }
+
+  .payment {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 80px;
+    padding: 5px;
+  }
+}

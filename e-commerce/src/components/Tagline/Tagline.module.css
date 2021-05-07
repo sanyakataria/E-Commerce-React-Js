@@ -1,0 +1,14 @@
+.tagline {
+  background: blue;
+  color: white;
+  margin-top: -26px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+
+.search {
+  padding: 8px 16px;
+  font: 24px;
+  width: 200px;
+}

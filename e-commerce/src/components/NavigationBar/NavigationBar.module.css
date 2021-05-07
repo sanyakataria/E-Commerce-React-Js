@@ -1,0 +1,90 @@
+.navbar {
+  background: blue;
+  text-align: right;
+  padding: 12px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navItem {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+}
+
+.navList{
+  display: flex;
+  align-content: center;
+  list-style-type: none;
+  padding:0;
+  margin: 10px 0px;
+}
+
+.listItem{
+  display: flex;
+  align-content: center;
+}
+
+.btn {
+  color: blue;
+  background: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.responsiveBars{
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-start;
+    padding: 6px;
+    position: static;
+  }
+  /* .navItem {
+    display: none;
+  }
+
+  .navItem:first-child {
+    display: inline-block;
+  }
+
+  .navItem:last-child {
+    display: inline-block;
+  } */
+
+  .btn {
+    padding: 0px 5px;
+    height: 30px;
+    align-self: center;
+    font-size: 11px;
+  }
+
+  .navList{
+    display: block;
+    width: 100%;
+  }
+
+  .listItem{
+    text-align: center;
+    
+  }
+  
+  .navItem{
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .cartBtn{
+    width: 100%;
+  }
+}
