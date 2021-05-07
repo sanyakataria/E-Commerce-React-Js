@@ -46,7 +46,7 @@ class ProductDescription extends Component {
             className={classes.img}
             src={activeProduct.image}
             alt={activeProduct.title}
-            width="400"
+            width="300"
             height="350"
           ></img>
           <div className={classes.description}>
@@ -73,7 +73,7 @@ class ProductDescription extends Component {
             </div>
             <hr />
             <p>{activeProduct.description}</p>
-
+<p className={classes.gray}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
             <button
               className={classes.btn}
               onClick={() => {

@@ -12,3 +12,9 @@
   font: 24px;
   width: 200px;
 }
+
+@media (max-width: 767px) {
+  .tagline {
+    padding-top: 30px;
+  }
+}

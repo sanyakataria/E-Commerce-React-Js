@@ -19,12 +19,12 @@ class Footer extends Component {
               </Link>
             </li>
             <li>
-              <Link to="/" className={classes.navItem}>
+              <Link to="/help" className={classes.navItem}>
                 Help
               </Link>
             </li>
             <li>
-              <Link to="/" className={classes.navItem}>
+              <Link to="/about" className={classes.navItem}>
                 About
               </Link>
             </li>

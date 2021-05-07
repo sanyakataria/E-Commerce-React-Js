@@ -7,6 +7,8 @@ import Homepage from "./containers/Homepage/Homepage";
 import ProductDescription from "./containers/ProductDescription/ProductDescription";
 import Cart from "./containers/Cart/Cart";
 import OrderPlaced from "./containers/OrderPlaced/OrderPlaced";
+import About from './components/About/About';
+import Help from './components/Help/Help';
 
 class App extends Component {
   render() {
@@ -17,6 +19,8 @@ class App extends Component {
           <Route path="/details/:id" component={ProductDescription} />
           <Route path="/order-placed" component={OrderPlaced} />
           <Route path="/cart" component={Cart} />
+          <Route path="/about" component={About} />
+          <Route path="/help" component={Help} />
           <Route path="/" component={Homepage} />
         </Switch>
         <Footer />

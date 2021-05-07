@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, Route } from "react-router-dom";
 import classes from "./NavigationBar.module.css";
 import { connect } from "react-redux";
 
@@ -20,12 +20,12 @@ class NavigationBar extends Component {
             </Link>
           </li>
           <li className={classes.listItem}>
-            <Link to="/" className={classes.navItem}>
+            <Link to="/help" className={classes.navItem}>
               Help
             </Link>
           </li>
           <li className={classes.listItem}>
-            <Link to="/" className={classes.navItem}>
+            <Link to="/about" className={classes.navItem}>
               About
             </Link>
           </li>

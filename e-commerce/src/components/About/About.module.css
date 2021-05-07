@@ -1,0 +1,14 @@
+.about{
+    padding: 20px;
+    text-align: center;
+}
+
+.info{
+    padding-top: 20px;
+}
+
+@media (max-width: 767px){
+    h1{
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,38 @@
+.help {
+  padding: 20px;
+  text-align: center;
+  height: 451px;
+}
+
+.form{
+    display: inline-block;
+    text-align: left;
+    padding-top: 60px;
+}
+
+.input {
+  padding: 5px;
+  margin: 10px;
+  width: 200px;
+}
+
+.query {
+  padding: 5px;
+  margin: 10px;
+  width: 400px;
+}
+
+.btn {
+    padding: 8px 40px;
+    margin: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+@media (max-width: 767px){
+.query{
+    width: 250px;
+}
+}

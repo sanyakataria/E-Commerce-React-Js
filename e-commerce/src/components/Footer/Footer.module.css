@@ -1,19 +1,14 @@
 .footer {
   background: blue;
   text-align: center;
-  padding: 12px;
+  padding: 5px;
   font-size: 12px;
-  margin-top: 205px;
 }
 
 .navItem {
   color: white;
   text-decoration: none;
   padding: 16px;
-}
-
-.bottom {
-  padding-top: 8px;
 }
 
 .list {

@@ -6,6 +6,8 @@
 .products {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  min-height: 182px;
+  padding-bottom: 30px;
 }
 
 .details {
