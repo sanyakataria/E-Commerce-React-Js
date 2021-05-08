@@ -23,7 +23,13 @@ class ShoppingCart extends Component {
   render() {
     const { cart } = this.props;
 
-    return (
+    console.log(cart.items.length);
+    return cart.items.length === 0 ? (
+      <div className={classes.emptyCart}>
+        <h2>Shopping Cart</h2>
+        <h1>Cart Is Empty !</h1>
+      </div>
+    ) : (
       <div className={classes.shoppingCart}>
         <div className={classes.shopping}>
           <h2>Shopping Cart</h2>
