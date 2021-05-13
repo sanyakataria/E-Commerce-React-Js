@@ -22,6 +22,7 @@ class ProductDescription extends Component {
   }
 
   addToCart = (product, size) => {
+    // const {addToCart} = this.props;
     this.props.addToCart(product, size);
   };
 
@@ -33,6 +34,7 @@ class ProductDescription extends Component {
       this.setState({ activeProduct: product });
     } else {
       this.props.history.push("/");
+      // this.props.history.replace("/");
     }
   }
 
@@ -73,7 +75,13 @@ class ProductDescription extends Component {
             </div>
             <hr />
             <p>{activeProduct.description}</p>
-<p className={classes.gray}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p className={classes.gray}>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s,Lorem Ipsum is simply dummy text of the
+              printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s
+            </p>
             <button
               className={classes.btn}
               onClick={() => {
